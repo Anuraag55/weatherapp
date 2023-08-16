@@ -9,7 +9,7 @@ import Forecast from "./components/Forecast";
  export const WeatherContext=createContext();
 function App() {
   const [Data, setData] = useState([])
-  const [city, setCity] = useState('kanpur')
+  const [city, setCity] = useState('Noida')
   const [bg, setBg] = useState("")
 
 
